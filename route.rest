@@ -1,0 +1,31 @@
+GET http://localhost:3030/logs
+
+###
+
+GET http://localhost:3030/logs/601da387bf79175228266eeb
+
+###
+
+POST http://localhost:3030/logs
+Content-type: application/json
+
+{
+    "weekBeginning": "2021-02-03 22:10:57",
+    "subject": "A subject 2",
+    "task": "A task 2",
+    "progress": "Some progress 2"
+}
+
+###
+
+PATCH http://localhost:3030/logs/601dd912e44ce454c856a2a1
+Content-type: application/json
+
+{
+    "subject": "A New subject",
+    "progress": "Some new progress"
+}
+
+###
+
+DELETE http://localhost:3030/logs/601dd912e44ce454c856a2a1
