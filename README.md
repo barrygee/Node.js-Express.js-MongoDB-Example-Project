@@ -1,1 +1,1 @@
-# Node.js and MongoDB (Mongoose) Basics
+## Node.js, Express.js and MongoDB (Mongoose) Example Project
